@@ -1,0 +1,9 @@
+@media screen and (min-width: 50em) {
+    .card {
+        flex-direction: row;
+    }
+
+    .card_header img {
+        max-height: initial;
+    }
+}
