@@ -44,3 +44,8 @@ body {
     gap: 1em;
     flex-direction: column;
 }
+
+.card_wrapper,
+main {
+    container-type: inline-size;
+}
