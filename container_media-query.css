@@ -1,5 +1,5 @@
 /* @media screen and (min-width: 50em) { */
-@container (min-width: 50em) {
+@container cardWrapper (min-width: 50em) {
     .card {
         flex-direction: row;
     }
@@ -10,7 +10,7 @@
 }
 
 /* @media screen and (min-width: 60em) { */
-@container (min-width: 60em) {
+@container main (min-width: 60em) {
     .cards_container {
         flex-direction: row;
     }

@@ -45,7 +45,14 @@ body {
     flex-direction: column;
 }
 
-.card_wrapper,
-main {
+.card_wrapper{
     container-type: inline-size;
+}
+
+.card_wrapper {
+    container-name: cardWrapper;
+}
+
+main {
+    container: main / inline-size;
 }
