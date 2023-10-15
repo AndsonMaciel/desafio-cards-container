@@ -7,3 +7,9 @@
         max-height: initial;
     }
 }
+
+@media screen and (min-width: 70em) {
+    .cards_container {
+        flex-direction: row;
+    }
+}

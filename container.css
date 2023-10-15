@@ -23,6 +23,7 @@ body {
     padding: 1em;
     box-sizing: border-box;
     background-color: #ccc;
+    flex-grow: 1;
 }
 
 .card_btn {
@@ -36,4 +37,10 @@ body {
 
 .card_body p {
     margin: 0 0 1em;
+}
+
+.cards_container {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
 }
